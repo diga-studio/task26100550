@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zipgate"
+version = "0.1.0"
+description = "ZIP 文件入库核验库：结构伪造核验，返回接收或隔离结论"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["zipgate"]
